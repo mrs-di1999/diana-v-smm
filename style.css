@@ -3,13 +3,18 @@
 * {
 	color: #201226;
 	border-color: #201226;
+	box-sizing: border-box;
 }
 
 body {
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 1rem;
-	padding: 5rem 3rem;
+	padding: 4rem 3rem;
 	background-color: #FEFDFF;
+}
+
+.block {
+	margin-bottom: 4rem;
 }
 
 img {
@@ -28,10 +33,6 @@ h1 {
 
 h1 p {
 	margin: 0;
-}
-
-.header {
-	display: flex;
 }
 
 .subtitle {
@@ -71,4 +72,19 @@ h1 p {
 	border-radius: 5vw;
 	padding: 5vw 8vw;
 	box-shadow: 0 20px 50px rgba(181,123,158,0.3);
+}
+
+@media screen and (min-width: 900px) {
+	.header {
+		display: flex;
+		align-items: center;
+		column-gap: 2rem;
+		justify-content: space-around;
+	}
+
+	.main-photo {
+		display: block;
+		border-radius: 1rem;
+		max-width: 400px;
+	}
 }
