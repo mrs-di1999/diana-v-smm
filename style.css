@@ -4,6 +4,7 @@
 	color: #201226;
 	border-color: #201226;
 	box-sizing: border-box;
+	line-height: 1.4;
 }
 
 body {
@@ -26,9 +27,16 @@ h1, h2, h3, h4 {
 	font-weight: 500;
 }
 
-h1 {
+h1, h2 {
 	font-weight: 800;
+}
+
+h1 {
 	font-size: 3rem;
+}
+
+h2 {
+	font-size: 2rem;
 }
 
 h1 p {
@@ -43,6 +51,62 @@ h1 p {
 .subtitle {
 	font-weight: 500;
 	font-size: 2rem;
+}
+
+.timeline {
+	position: relative;
+}
+
+.timeline::after {
+	content: "";
+	left: calc(30% - 0.5px);
+	top: 0;
+	height: 100%;
+	width: 1px;
+	position: absolute;
+	background: #713F58;
+}
+
+.timeline-block {
+	display: flex;
+	align-items: center;
+	margin: 3rem 0;
+	justify-content: space-around;
+	min-height: 4rem;
+}
+
+.timeline-center {
+	width: 3rem;
+	height: 2rem;
+	position: relative;
+}
+
+.timeline-center::after {
+	content: "";
+	height: 4rem;
+	background: no-repeat center / 2.5rem url("img/star.svg") #FEFDFF;
+	width: 2.5rem;
+	position: absolute;
+	top: -1rem;
+	left: calc(50% - 1.25rem);
+	border-radius: 1.25rem;
+	z-index: 2;
+}
+
+.timeline-date {
+	width: calc(30% - 1.5rem);
+	text-align: right;
+	padding-right: 1rem;
+	font-size: 1.2rem;
+}
+
+.timeline-info {
+	width: calc(70% - 1.5rem);
+	padding-left: 1rem;
+}
+
+.review-header-photo img {
+	border-radius: 50%;
 }
 
 .modal-container {
