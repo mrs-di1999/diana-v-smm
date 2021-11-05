@@ -35,6 +35,11 @@ h1 p {
 	margin: 0;
 }
 
+.main-photo {
+	display: block;
+	border-radius: 1rem;
+}
+
 .subtitle {
 	font-weight: 500;
 	font-size: 2rem;
@@ -83,8 +88,6 @@ h1 p {
 	}
 
 	.main-photo {
-		display: block;
-		border-radius: 1rem;
-		max-width: 400px;
+		max-width: 600px;
 	}
 }
