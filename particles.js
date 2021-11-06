@@ -90,13 +90,13 @@ var colorArray = [
 ]
 
 function drawCircles(){
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < 3; i++) {
         let radius = Math.floor(Math.random() * 10) + 1;
         let vx = (Math.random() * 1.5) - 1;
         let vy = (Math.random() * 1.5) - 1;
         let spawnFrame = frame;
         let rgb = colorArray[Math.floor(Math.random() * colorArray.length)];
-        let life = Math.floor(Math.random() * 100) + 30;
+        let life = 60;
         circleArray.push(new Circle(mouse.x, mouse.y, radius, vx, vy, rgb, Math.random(), spawnFrame, life));
 
     }
