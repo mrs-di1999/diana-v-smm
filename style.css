@@ -174,7 +174,7 @@ h3 {
 	font-family: 'Montserrat', sans-serif;
 	border-bottom: 2px solid rgb(197 168 194 / 20%);
 	box-shadow: 0px 0rem 1rem -2rem rgb(197 168 194 / 0%);
-	transition: 2s;
+	transition: border 2s, box-shadow 2s;
 	cursor: pointer;
 }
 
@@ -182,7 +182,7 @@ h3 {
 	border-bottom: 2px solid rgb(197 168 194 / 50%);
 	box-shadow: 0px 1rem 2rem -1rem rgb(197 168 194 / 30%);
 	background: white;
-	transition: 0.2s;
+	transition: border .2s, box-shadow .2s;;
 }
 
 .case-panel {
