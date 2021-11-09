@@ -185,10 +185,6 @@ h3 {
 	transition: 0.2s;
 }
 
-.show-more {
-	display: none;
-}
-
 .case-panel {
 	display: flex;
 	align-items: center;
