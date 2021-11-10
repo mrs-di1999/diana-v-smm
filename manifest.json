@@ -1,0 +1,11 @@
+{
+    "name": "diana-v-smm",
+    "short_name": "diana-v-smm",
+    "icons": [{
+        "src": "google-touch-icon.png",
+        "sizes": "512x512"
+    }],
+    "background_color": "#FEFDFF",
+    "theme_color": "#FEFDFF",
+    "display": "fullscreen"
+}
